@@ -1,0 +1,132 @@
+body {
+    background-color: white;
+    font-family: Roboto;
+  }
+  
+  .Navbar {
+    background-color: lightsteelblue;
+    position: sticky;
+    top: 0;
+    left: auto;
+    right: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Roboto;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0px 0px 5px silver;
+  }
+  
+  .Toolbar {
+    display: flex;
+    min-height: 56px;
+    align-items: center;
+    padding: 0px 10px;
+  }
+  
+  .Logo {
+    margin-right: 10px;
+  }
+  
+  .Title {
+    flex-grow: 1;
+}
+/* .button-30 {
+  align-items: center;
+  appearance: none;
+  background-color: #FCFCFD;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #36395A;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.button-30:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.button-30:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-30:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+} */
+.active{
+    position: absolute;
+    left:90px;
+    transform: translate(-5%,-90%); 
+    text-decoration:none;
+    
+}
+.active1{
+    position:absolute;
+    left:190px;
+    flex:left;
+    transform: translate(50%,-85%);
+    text-decoration:none; 
+    
+}
+.active2{
+    position:absolute;
+    left:360px;
+    flex:left;
+    transform: translate(-60%,-85%);
+    /* background-color: transparent; */
+}
+.active3{
+    position:absolute;
+    left:430px;
+    flex:left;
+    transform: translate(-140%,-85%);
+}
+.active4{
+    position:absolute;
+    left:630px;
+    flex:left;
+    transform: translate(-100%,-85%);
+    
+}
+.active5{
+    position:absolute;
+    left: 490px;
+    flex:left;
+    transform: translate(70%,-85%);
+    
+}
+.active6{
+  position:absolute;
+    left:400px;
+    flex:left;
+    transform: translate(70%,-85%);
+
+}
+
+.menu a{
+    text-decoration: none;
+}
+
